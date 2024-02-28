@@ -1,0 +1,41 @@
+<!--suppress AndroidUnknownAttribute -->
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <!--        <androidx.appcompat.widget.SearchView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:id="@+id/searchEditText"-->
+    <!--            android:layout_margin="8dp"-->
+    <!--            android:background="@drawable/edit1"-->
+    <!--            android:hint="Search"/>-->
+
+    <SearchView
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search by job title/role"
+        android:queryBackground="@drawable/rounded_edittext"
+        android:layout_margin="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:searchIcon="@drawable/baseline_search_24"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

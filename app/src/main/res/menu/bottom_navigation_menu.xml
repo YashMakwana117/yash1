@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"/>
+    <item
+        android:id="@+id/resume"
+        android:enabled="true"
+        android:icon="@drawable/baseline_star_24"
+        android:title="Save"/>
+    <item
+        android:id="@+id/star"
+        android:enabled="true"
+        android:icon="@drawable/baseline_star_24"
+        android:title="Save"/>
+    <item
+        android:id="@+id/edu"
+        android:enabled="true"
+        android:icon="@drawable/baseline_star_24"
+        android:title="Save"/>
+
+</menu>

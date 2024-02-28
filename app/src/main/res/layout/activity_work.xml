@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".work"
+    android:background="#000"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/baseline_keyboard_arrow_right_24"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preferred work type"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:layout_marginStart="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This will help us to find the right job for you"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginStart="15dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preferred employment type"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/fullTimeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/ddl">
+        <!-- Text View -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full-time"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginStart="15dp"
+            android:layout_centerVertical="true"/>
+        <!-- Checkbox -->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1"
+            android:layout_alignParentEnd="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/part"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/ddl">
+        <!-- Text View -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Part Time"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginStart="15dp"
+            android:layout_centerVertical="true"/>
+        <!-- Checkbox -->
+        <CheckBox
+            android:id="@+id/f2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Preferred workplace"
+                    android:layout_marginStart="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/j1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/ddl">
+                <!-- Text View -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Field Job"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="15dp"
+                    android:layout_centerVertical="true"/>
+                <!-- Checkbox -->
+                <CheckBox
+                    android:id="@+id/f3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:layout_gravity="right"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/j2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/ddl">
+                <!-- Text View -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Work from Office"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="15dp"
+                    android:layout_centerVertical="true"/>
+                <!-- Checkbox -->
+                <CheckBox
+                    android:id="@+id/f4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:layout_gravity="right"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/j3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/ddl">
+                <!-- Text View -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Work from Home"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="15dp"
+                    android:layout_centerVertical="true"/>
+                <!-- Checkbox -->
+                <CheckBox
+                    android:id="@+id/f5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:layout_gravity="right"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Preferred shift"
+                    android:layout_marginStart="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/ddl">
+                <!-- Text View -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day Shift"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="15dp"
+                    android:layout_centerVertical="true"/>
+                <!-- Checkbox -->
+                <CheckBox
+                    android:id="@+id/f6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:layout_gravity="right"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/s2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/ddl">
+                <!-- Text View -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Night Shift"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="15dp"
+                    android:layout_centerVertical="true"/>
+                <!-- Checkbox -->
+                <CheckBox
+                    android:id="@+id/f7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:layout_gravity="right"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/applyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/themeColor"
+            android:text="Next"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

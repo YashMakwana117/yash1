@@ -1,0 +1,66 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="profile"
+            android:icon="@drawable/baseline_person_24"
+            android:padding="10dp" />
+
+        <item
+            android:id="@+id/nav_recommded"
+            android:title="Recommended"
+            android:icon="@drawable/bag"
+            android:padding="10dp" />
+        <item
+            android:id="@+id/save_job"
+            android:title="Save Job"
+            android:icon="@drawable/bookmark"
+            android:padding="10dp" />
+
+    </group>
+
+
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_about"
+                    android:title="About us"
+                    android:icon="@drawable/baseline_error_outline_24"
+                    android:padding="10dp" />
+                <item
+                    android:id="@+id/nav_feedback"
+                    android:title="Feedback"
+                    android:icon="@drawable/baseline_feedback_24"
+                    android:padding="10dp" />
+
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+
+    <item android:title="Exit">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/baseline_logout_24"
+                    android:padding="10dp" />
+            </group>
+        </menu>
+    </item>
+</menu>

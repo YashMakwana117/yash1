@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "661478618202",
+    "project_id": "jobhunt-554cc",
+    "storage_bucket": "jobhunt-554cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661478618202:android:56a40bb5a8f00c7bfb1463",
+        "android_client_info": {
+          "package_name": "com.example.jobhunt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBszPsWjusHOdVXz_fDeNrY5sthfJPiF2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
